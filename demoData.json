@@ -1,0 +1,100 @@
+{
+  "HubSpot": {
+    "companyOverview": {
+      "name": "HubSpot",
+      "industry": "Marketing & Sales Software",
+      "stage": "Public",
+      "products": ["CRM", "Marketing Hub", "Sales Hub", "Service Hub"],
+      "summary": "HubSpot provides an inbound marketing, sales, and service platform that helps businesses attract visitors, convert leads, and close customers."
+    },
+    "painPoints": [
+      {"title": "Lead Qualification Inefficiency", "why": "Manual lead scoring leads to missed opportunities.", "impact": "Lower conversion rates and higher sales cycle time."},
+      {"title": "Sales Workflow Fragmentation", "why": "Multiple disconnected tools cause data silos.", "impact": "Reduced team productivity and visibility."},
+      {"title": "Manual Reporting", "why": "Report generation requires manual data extraction.", "impact": "Slower decision making and higher operational cost."}
+    ],
+    "solutionMapping": [
+      {"painPoint": "Lead Qualification Inefficiency", "solution": "AI Lead Scoring"},
+      {"painPoint": "Sales Workflow Fragmentation", "solution": "Workflow Automation"},
+      {"painPoint": "Manual Reporting", "solution": "AI Analytics"}
+    ],
+    "outreachEmail": "Subject: Unlock Faster Lead Qualification at HubSpot\n\nHi {{prospectName}},\n\nI noticed HubSpot’s impressive growth in inbound marketing. Many fast‑growing SaaS companies like yours face challenges with manual lead scoring, which can slow down your pipeline. Our AI‑powered Lead Scoring engine integrates directly with HubSpot CRM, automatically prioritizing high‑intent leads in real time.\n\nWould you be open to a brief 15‑minute call to explore how this could boost your conversion rates?\n\nBest,\n[Your Name]\n",
+    "linkedInMessage": "Hi {{prospectName}}, I’m impressed with HubSpot’s leadership in inbound marketing. We’ve helped similar companies streamline lead qualification with AI – would love to share insights. Happy to connect!",
+    "meetingPrep": {
+      "companySnapshot": "Revenue $1.2B, 5,000+ employees, public NYSE: HUBS",
+      "prospectSummary": "Director of Revenue Operations – focuses on pipeline efficiency and reporting.",
+      "discussionPoints": ["Current lead scoring process", "Integration points with HubSpot CRM"],
+      "discoveryQuestions": ["How do you currently prioritize leads?", "What’s the biggest bottleneck in your sales workflow?"],
+      "objections": ["Data privacy concerns", "Implementation time"],
+      "talkingPoints": ["Zero‑code integration", "Proven ROI within 30 days"]
+    },
+    "nextAction": {
+      "priorityScore": 88,
+      "action": "Send personalized outreach and schedule discovery call",
+      "reasoning": "High fit for AI Lead Scoring and workflow automation solutions."
+    }
+  },
+  "Notion": {
+    "companyOverview": {
+      "name": "Notion",
+      "industry": "Productivity & Collaboration",
+      "stage": "Public",
+      "products": ["Notion Workspace"],
+      "summary": "Notion offers an all‑in‑one workspace for notes, tasks, databases, and collaboration."
+    },
+    "painPoints": [
+      {"title": "Feature Adoption", "why": "Teams use only a subset of Notion's capabilities.", "impact": "Underutilized ROI."},
+      {"title": "Knowledge Silos", "why": "Information spread across multiple workspaces.", "impact": "Reduced cross‑team efficiency."}
+    ],
+    "solutionMapping": [
+      {"painPoint": "Feature Adoption", "solution": "AI Guidance Assistant"},
+      {"painPoint": "Knowledge Silos", "solution": "AI Knowledge Graph"}
+    ],
+    "outreachEmail": "Subject: Boost Notion Adoption with AI Guidance\n\nHi {{prospectName}},\n\nI see Notion’s rapid growth in enabling collaborative workspaces. Many organizations struggle to unlock its full potential, leading to feature under‑utilisation. Our AI Guidance Assistant surfaces context‑aware tips within Notion, driving higher adoption and reducing onboarding time.\n\nWould you be interested in a quick demo?\n\nBest,\n[Your Name]",
+    "linkedInMessage": "Hi {{prospectName}}, loving Notion’s workspace flexibility. We’ve built an AI assistant that helps teams discover hidden features – happy to share a quick demo.",
+    "meetingPrep": {
+      "companySnapshot": "Revenue $800M, 1,200 employees, public NYSE: NOTION",
+      "prospectSummary": "Head of Operations – responsible for team productivity and tool adoption.",
+      "discussionPoints": ["Current onboarding process", "Feature usage metrics"],
+      "discoveryQuestions": ["What percentage of teams use advanced Notion features?", "What are the biggest barriers to adoption?"],
+      "objections": ["Integration complexity", "Cost justification"],
+      "talkingPoints": ["Zero‑config AI overlays", " measurable adoption uplift"]
+    },
+    "nextAction": {
+      "priorityScore": 81,
+      "action": "Send outreach and arrange product demo",
+      "reasoning": "Strong alignment with AI Guidance needs."
+    }
+  },
+  "Stripe": {
+    "companyOverview": {
+      "name": "Stripe",
+      "industry": "Fintech Payments",
+      "stage": "Public",
+      "products": ["Payments Platform", "Billing", "Connect"],
+      "summary": "Stripe provides developer‑centric payment infrastructure for internet businesses."
+    },
+    "painPoints": [
+      {"title": "Fraud Detection", "why": "Increasing fraudulent transactions.", "impact": "Revenue loss and brand risk."},
+      {"title": "International Expansion", "why": "Complex compliance across regions.", "impact": "Slower market entry."}
+    ],
+    "solutionMapping": [
+      {"painPoint": "Fraud Detection", "solution": "AI Risk Engine"},
+      {"painPoint": "International Expansion", "solution": "AI Compliance Advisor"}
+    ],
+    "outreachEmail": "Subject: Strengthen Stripe’s Fraud Defense with AI\n\nHi {{prospectName}},\n\nStripe’s global payment platform powers millions of transactions daily. As fraud tactics evolve, AI‑driven risk engines can proactively identify malicious activity with higher precision. Our solution integrates seamlessly with Stripe’s APIs, delivering real‑time fraud scores.\n\nCan we schedule a short call to explore this?\n\nBest regards,\n[Your Name]",
+    "linkedInMessage": "Hi {{prospectName}}, impressed by Stripe’s global reach. We’ve built an AI risk engine that boosts fraud detection for payment platforms – would love to discuss.",
+    "meetingPrep": {
+      "companySnapshot": "Revenue $7B, 7,000 employees, public NYSE: STRIPE",
+      "prospectSummary": "Senior VP of Risk – oversees fraud prevention and compliance.",
+      "discussionPoints": ["Current fraud detection workflow", "Compliance challenges in new markets"],
+      "discoveryQuestions": ["What false positive rate are you targeting?", "Which regions are you expanding into next year?"],
+      "objections": ["Model interpretability", "Data privacy"],
+      "talkingPoints": ["Explainable AI models", "GDPR‑compliant data handling"]
+    },
+    "nextAction": {
+      "priorityScore": 90,
+      "action": "Send AI fraud detection outreach and propose pilot",
+      "reasoning": "High impact on revenue protection and regulatory compliance."
+    }
+  }
+}

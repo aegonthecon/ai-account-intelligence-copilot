@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [{
+    "src": "api/generate.js",
+    "use": "@vercel/node"
+  }, {
+    "src": "src/**/*.jsx",
+    "use": "@vercel/static-build",
+    "config": {
+      "distDir": "dist"
+    }
+  }],
+  "routes": [
+    { "src": "/api/generate", "dest": "/api/generate.js" },
+    { "src": "/(.*)", "dest": "/dist/$1" }
+  ]
+}
