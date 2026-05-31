@@ -7,20 +7,24 @@
 
 An AI-powered GTM and Sales Intelligence platform that automates company research, account planning, outreach generation, and meeting preparation using Gemini 2.5 Flash.
 
+---
+
 ## Features
 
-* Live AI company intelligence generation
-* Company overview and business analysis
-* Pain point identification
-* AI solution mapping
-* Personalized outreach email generation
-* LinkedIn message drafting
-* Meeting preparation brief generation
-* ICP fit scoring and reasoning
-* Recommended next‑step generation
-* PDF report export
-* Demo fallback mode
-* Responsive React‑based interface
+- Live AI company intelligence generation
+- Company overview and business analysis
+- Pain point identification
+- AI solution mapping
+- Personalized outreach email generation
+- LinkedIn message drafting
+- Meeting preparation brief generation
+- ICP fit scoring and reasoning
+- Recommended next-step generation
+- PDF report export
+- Demo fallback mode
+- Responsive React-based interface
+
+---
 
 ## Architecture
 
@@ -38,72 +42,84 @@ Structured JSON Response
 UI Rendering + PDF Export
 ```
 
+---
+
 ## Demo
 
-* OpenAI
-* Google
-* Canva
-* Stripe
+Below are example outputs generated for several well-known companies:
 
-All demos run against live Gemini 2.5 Flash and return:
+- **OpenAI** – Comprehensive AI-focused intelligence
+- **Google** – Global technology company analysis
+- **Canva** – Design platform insights
+- **Stripe** – Payment infrastructure overview
 
-* fallback: false
-* source: "live"
+All demos run against live **Gemini 2.5 Flash** and return:
+
+- `fallback: false`
+- `source: "live"`
+
+---
 
 ## Tech Stack
-## Tech Stack
-
-### Demo
-
-Below are example outputs generated for several well‑known companies:
-
-- **OpenAI** – Comprehensive AI‑focused intelligence.
-- **Google** – Global tech giant analysis.
-- **Canva** – Design platform insights.
-- **Stripe** – Payment infrastructure overview.
-
-All demos run against live Gemini 2.5 Flash and return structured JSON with `fallback: false` and `source: "live"`.
 
 ### Frontend
 
-* React
-* Vite
-* Tailwind CSS
+- React
+- Vite
+- Tailwind CSS
 
 ### Backend
 
-* Node.js
-* Express
+- Node.js
+- Express
 
 ### AI Layer
 
-* Gemini 2.5 Flash
+- Gemini 2.5 Flash
 
 ### Utilities
 
-* jsPDF
-* dotenv
+- jsPDF
+- dotenv
+
+---
 
 ## Installation
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env.local` file in the project root with your Gemini API key:
+### Configure Environment Variables
+
+Create a `.env.local` file in the project root:
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-Start the development environment:
+### Start Development Environment
 
 ```bash
 npm run dev
 ```
 
-- **Frontend:** http://localhost:3001
-- **Backend:** http://localhost:5003
+Frontend:
+
+```text
+http://localhost:3001
+```
+
+Backend:
+
+```text
+http://localhost:5003
+```
+
+---
+
 ## Example Workflow
 
 1. Enter a company name
@@ -113,6 +129,8 @@ npm run dev
 5. Generate personalized outreach content
 6. Review meeting preparation brief
 7. Export report as PDF
+
+---
 
 ## Generated Outputs
 
@@ -134,57 +152,68 @@ Personalized sales email draft.
 
 ### LinkedIn Message
 
-Short‑form prospecting message.
+Short-form prospecting message.
 
 ### Meeting Preparation Brief
 
-Talking points, questions, objections, and discussion areas.
+Talking points, discovery questions, objections, and discussion areas.
 
 ### ICP Fit Score
 
-Ideal Customer Profile score with reasoning.
+Ideal Customer Profile score with supporting reasoning.
 
 ### Recommended Next Action
 
-Suggested sales follow‑up strategy.
+Suggested sales follow-up strategy.
+
+---
 
 ## Screenshots
 
 ### Dashboard
 
-*Placeholder for dashboard screenshot*
+*Dashboard screenshot coming soon.*
 
 ### Generated Intelligence Report
 
-*Placeholder for report screenshot*
+*Generated report screenshot coming soon.*
 
 ### PDF Export
 
-*Placeholder for PDF export screenshot*
+*PDF export screenshot coming soon.*
+
+---
+
 ## Future Enhancements
 
 - CRM integrations (Salesforce, HubSpot)
 - LinkedIn enrichment
-- Automated follow‑up sequences
-- Multi‑company comparison
-- RAG‑powered company research
+- Automated follow-up sequences
+- Multi-company comparison
+- RAG-powered company research
 - Competitive intelligence module
 - Sales pipeline tracking
 - Team collaboration features
 
+---
+
 ## Assignment Context
 
-**Businos GTM Automation Use‑Case**
+### Businos GTM Automation Use Case
 
-This prototype was built for *Businos*, a B2B go‑to‑market consultancy, to dramatically accelerate account‑based sales motions. By automating company research, pain‑point identification, solution mapping, and personalized outreach creation, sales teams can:
+This prototype was built for **Businos**, a B2B go-to-market consultancy, to accelerate account-based sales workflows through AI-driven research and outreach automation.
 
-- Reduce manual research time from hours to seconds.
-- Generate data‑driven ICP fit scores to prioritize high‑value accounts.
-- Produce ready‑to‑send outreach emails and LinkedIn messages.
-- Export a polished PDF briefing for internal alignment or client presentations.
+By automating company research, pain-point identification, solution mapping, and personalized outreach creation, sales teams can:
 
-The application showcases how Gemini 2.5 Flash can be leveraged for real‑time, high‑quality sales intelligence in a production‑ready web stack.
+- Reduce manual research time from hours to seconds
+- Generate data-driven ICP fit scores to prioritize high-value accounts
+- Produce ready-to-send outreach emails and LinkedIn messages
+- Export polished PDF briefings for internal alignment and client presentations
+
+The application demonstrates how Gemini 2.5 Flash can be leveraged to deliver real-time, high-quality sales intelligence in a modern production-ready web application.
+
+---
 
 ## Author
 
-Harshit Anand
+**Harshit Anand**
