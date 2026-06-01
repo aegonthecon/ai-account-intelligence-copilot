@@ -49,6 +49,8 @@ Return ONLY valid JSON.`;
       body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }] }),
     });
     const data = await response.json();
+console.log("RAW GEMINI RESPONSE:");
+console.log(JSON.stringify(data, null, 2));
     const generated = data?.candidates?.[0]?.content?.parts?.[0]?.text;
     if (!generated) throw new Error('No generated content');
     const cleaned = generated
